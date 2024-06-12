@@ -1,0 +1,35 @@
+.yellow{
+    color: yellow;
+}
+
+#greycol{
+    color: grey;
+}
+div + h3 + p{
+    color: green;
+}
+div + div>p{
+    color: red;
+}
+div>h3:first-child{
+    color: pink;
+}
+li:hover,
+li:focus{
+    color: red  ;
+}
+.list1 :nth-child(even){
+    color: blue;
+}
+.list2 :nth-child(odd){
+    color: green;
+}
+.list3 :nth-child(3n){
+    color: aqua;
+}
+.list4 :nth-child(5){
+    color: burlywood;
+}
+.list5 :first-child{
+    color: chartreuse;
+}
